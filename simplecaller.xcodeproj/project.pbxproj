@@ -7,41 +7,358 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67C3A5AE0F3DD46BADA98A87 /* Pods_simplecaller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F78D071D06C681661E8DB4A /* Pods_simplecaller.framework */; };
+		78146616ECC6472EBDCFDEA3 /* Pods_simplecaller_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ABB48B6609EE3E12DFAD6D9 /* Pods_simplecaller_OneSignalNotificationServiceExtension.framework */; };
+		AB3A05792A87993400D85C16 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3A05782A87993400D85C16 /* HomeController.swift */; };
+		AB3A057B2A879A1B00D85C16 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3A057A2A879A1B00D85C16 /* HomeViewModel.swift */; };
+		AB3A057D2A879A9700D85C16 /* HomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3A057C2A879A9700D85C16 /* HomeBuilder.swift */; };
+		AB3A057F2A879ABA00D85C16 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3A057E2A879ABA00D85C16 /* HomeRouter.swift */; };
+		AB3A05832A87AEC500D85C16 /* LoadingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3A05822A87AEC500D85C16 /* LoadingManager.swift */; };
+		AB3A05862A87AF0400D85C16 /* AgoraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3A05852A87AF0400D85C16 /* AgoraManager.swift */; };
+		AB64FA6D2A87DEB100BA487C /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64FA6C2A87DEB100BA487C /* NotificationService.swift */; };
+		AB64FA712A87DEB100BA487C /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AB64FA6A2A87DEB100BA487C /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AB64FA782A87F7E900BA487C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64FA772A87F7E900BA487C /* NetworkManager.swift */; };
+		AB64FA7A2A87F80300BA487C /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64FA792A87F80300BA487C /* APIError.swift */; };
+		AB64FA7E2A87F82D00BA487C /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64FA7D2A87F82D00BA487C /* RequestModel.swift */; };
+		AB64FA822A87F88800BA487C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64FA812A87F88800BA487C /* Constants.swift */; };
+		AB64FA842A87F8A500BA487C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64FA832A87F8A500BA487C /* API.swift */; };
+		AB64FA872A87F93B00BA487C /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64FA862A87F93B00BA487C /* String+Extensions.swift */; };
+		AB64FA892A87FA2900BA487C /* ExternalIDRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64FA882A87FA2900BA487C /* ExternalIDRequestModel.swift */; };
+		AB64FA8C2A87FD6800BA487C /* ExternalIDAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64FA8B2A87FD6800BA487C /* ExternalIDAPI.swift */; };
+		AB64FA8F2A87FDEF00BA487C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64FA8E2A87FDEF00BA487C /* User.swift */; };
+		AB64FA922A88006C00BA487C /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64FA912A88006C00BA487C /* DependencyContainer.swift */; };
+		AB64FA942A880ED000BA487C /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64FA932A880ED000BA487C /* HomeCollectionViewCell.swift */; };
+		AB64FA972A880F3E00BA487C /* HomeCollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64FA962A880F3E00BA487C /* HomeCollectionViewCellViewModel.swift */; };
+		AB64FA9C2A880F7400BA487C /* ObjectSaveableError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64FA9A2A880F7400BA487C /* ObjectSaveableError.swift */; };
+		AB64FA9D2A880F7400BA487C /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64FA9B2A880F7400BA487C /* UserDefaultsManager.swift */; };
+		AB64FAA02A880FA200BA487C /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64FA9F2A880FA200BA487C /* Section.swift */; };
 		AB9B06412A879563003A4E7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9B06402A879563003A4E7C /* AppDelegate.swift */; };
 		AB9B06432A879563003A4E7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9B06422A879563003A4E7C /* SceneDelegate.swift */; };
-		AB9B06452A879563003A4E7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9B06442A879563003A4E7C /* ViewController.swift */; };
 		AB9B06482A879563003A4E7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9B06462A879563003A4E7C /* Main.storyboard */; };
 		AB9B064A2A879564003A4E7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB9B06492A879564003A4E7C /* Assets.xcassets */; };
 		AB9B064D2A879564003A4E7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9B064B2A879564003A4E7C /* LaunchScreen.storyboard */; };
+		ABFC52A02A88DFEE00399D7E /* TokenRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFC529F2A88DFEE00399D7E /* TokenRequestModel.swift */; };
+		ABFC52A22A88E0F100399D7E /* TokenAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFC52A12A88E0F100399D7E /* TokenAPI.swift */; };
+		ABFC52A42A88E12300399D7E /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFC52A32A88E12300399D7E /* Token.swift */; };
+		ABFC52A72A88E4A400399D7E /* OneSignalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFC52A62A88E4A400399D7E /* OneSignalManager.swift */; };
+		ABFC52A92A88F46E00399D7E /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFC52A82A88F46E00399D7E /* AlertView.swift */; };
+		ABFC52AC2A88F97200399D7E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFC52AB2A88F97200399D7E /* LoginViewController.swift */; };
+		ABFC52AE2A88FAFC00399D7E /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFC52AD2A88FAFC00399D7E /* LoginViewModel.swift */; };
+		ABFC52B02A88FB7500399D7E /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFC52AF2A88FB7500399D7E /* LoginRouter.swift */; };
+		ABFC52B22A88FB7C00399D7E /* LoginBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFC52B12A88FB7C00399D7E /* LoginBuilder.swift */; };
+		ABFC52B42A89206300399D7E /* CallKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFC52B32A89206200399D7E /* CallKit.framework */; };
+		ABFC52BC2A89375500399D7E /* ProviderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFC52BB2A89375500399D7E /* ProviderDelegate.swift */; };
+		ABFC52BE2A89382400399D7E /* CallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFC52BD2A89382400399D7E /* CallManager.swift */; };
+		ABFC52C02A89383800399D7E /* Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFC52BF2A89383800399D7E /* Call.swift */; };
+		ABFC52C32A8952B500399D7E /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFC52C22A8952B500399D7E /* PostModel.swift */; };
+		ABFC52C62A8956C600399D7E /* PostVoIPAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFC52C52A8956C600399D7E /* PostVoIPAPI.swift */; };
+		ABFC52C82A89573A00399D7E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFC52C72A89573A00399D7E /* Post.swift */; };
+		ABFC52CA2A8A3C7700399D7E /* RegisterVoIPToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFC52C92A8A3C7700399D7E /* RegisterVoIPToken.swift */; };
+		ABFC52CC2A8A55D900399D7E /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFC52CB2A8A55D900399D7E /* Audio.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AB64FA6F2A87DEB100BA487C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB9B06352A879563003A4E7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB64FA692A87DEB100BA487C;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB64FA752A87DEB100BA487C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AB64FA712A87DEB100BA487C /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3ABB48B6609EE3E12DFAD6D9 /* Pods_simplecaller_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_simplecaller_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BF74B4B7315B35035DC2EA8 /* Pods-simplecaller-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simplecaller-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-simplecaller-OneSignalNotificationServiceExtension/Pods-simplecaller-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		4F78D071D06C681661E8DB4A /* Pods_simplecaller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_simplecaller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD24944955979E800448D30 /* Pods-simplecaller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simplecaller.debug.xcconfig"; path = "Target Support Files/Pods-simplecaller/Pods-simplecaller.debug.xcconfig"; sourceTree = "<group>"; };
+		99B5A6A9952C2DC856874437 /* Pods-simplecaller-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simplecaller-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-simplecaller-OneSignalNotificationServiceExtension/Pods-simplecaller-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		AB3A05782A87993400D85C16 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		AB3A057A2A879A1B00D85C16 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		AB3A057C2A879A9700D85C16 /* HomeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBuilder.swift; sourceTree = "<group>"; };
+		AB3A057E2A879ABA00D85C16 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		AB3A05822A87AEC500D85C16 /* LoadingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingManager.swift; sourceTree = "<group>"; };
+		AB3A05852A87AF0400D85C16 /* AgoraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgoraManager.swift; sourceTree = "<group>"; };
+		AB64FA652A87DE2600BA487C /* simplecaller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = simplecaller.entitlements; sourceTree = "<group>"; };
+		AB64FA6A2A87DEB100BA487C /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB64FA6C2A87DEB100BA487C /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		AB64FA6E2A87DEB100BA487C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB64FA772A87F7E900BA487C /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		AB64FA792A87F80300BA487C /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		AB64FA7D2A87F82D00BA487C /* RequestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
+		AB64FA812A87F88800BA487C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AB64FA832A87F8A500BA487C /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		AB64FA862A87F93B00BA487C /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		AB64FA882A87FA2900BA487C /* ExternalIDRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalIDRequestModel.swift; sourceTree = "<group>"; };
+		AB64FA8B2A87FD6800BA487C /* ExternalIDAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalIDAPI.swift; sourceTree = "<group>"; };
+		AB64FA8E2A87FDEF00BA487C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AB64FA912A88006C00BA487C /* DependencyContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
+		AB64FA932A880ED000BA487C /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		AB64FA962A880F3E00BA487C /* HomeCollectionViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCellViewModel.swift; sourceTree = "<group>"; };
+		AB64FA9A2A880F7400BA487C /* ObjectSaveableError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectSaveableError.swift; sourceTree = "<group>"; };
+		AB64FA9B2A880F7400BA487C /* UserDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		AB64FA9F2A880FA200BA487C /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 		AB9B063D2A879563003A4E7C /* simplecaller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simplecaller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9B06402A879563003A4E7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB9B06422A879563003A4E7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB9B06442A879563003A4E7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB9B06472A879563003A4E7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB9B06492A879564003A4E7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB9B064C2A879564003A4E7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB9B064E2A879564003A4E7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABFC529F2A88DFEE00399D7E /* TokenRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenRequestModel.swift; sourceTree = "<group>"; };
+		ABFC52A12A88E0F100399D7E /* TokenAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenAPI.swift; sourceTree = "<group>"; };
+		ABFC52A32A88E12300399D7E /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		ABFC52A62A88E4A400399D7E /* OneSignalManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneSignalManager.swift; sourceTree = "<group>"; };
+		ABFC52A82A88F46E00399D7E /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		ABFC52AB2A88F97200399D7E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		ABFC52AD2A88FAFC00399D7E /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		ABFC52AF2A88FB7500399D7E /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		ABFC52B12A88FB7C00399D7E /* LoginBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBuilder.swift; sourceTree = "<group>"; };
+		ABFC52B32A89206200399D7E /* CallKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CallKit.framework; path = System/Library/Frameworks/CallKit.framework; sourceTree = SDKROOT; };
+		ABFC52BB2A89375500399D7E /* ProviderDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderDelegate.swift; sourceTree = "<group>"; };
+		ABFC52BD2A89382400399D7E /* CallManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CallManager.swift; path = "../../../../../../../Downloads/Materials_CallKit/Hotline-finished/Hotline/CallManager.swift"; sourceTree = "<group>"; };
+		ABFC52BF2A89383800399D7E /* Call.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Call.swift; path = "../../../../../../../Downloads/Materials_CallKit/Hotline-finished/Hotline/Call.swift"; sourceTree = "<group>"; };
+		ABFC52C22A8952B500399D7E /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		ABFC52C52A8956C600399D7E /* PostVoIPAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVoIPAPI.swift; sourceTree = "<group>"; };
+		ABFC52C72A89573A00399D7E /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		ABFC52C92A8A3C7700399D7E /* RegisterVoIPToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVoIPToken.swift; sourceTree = "<group>"; };
+		ABFC52CB2A8A55D900399D7E /* Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Audio.swift; path = "../../../../../../../Downloads/Materials_CallKit/Hotline-finished/Hotline/Audio.swift"; sourceTree = "<group>"; };
+		E62363B864DE6138FCDAE50A /* Pods-simplecaller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simplecaller.release.xcconfig"; path = "Target Support Files/Pods-simplecaller/Pods-simplecaller.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AB64FA672A87DEB100BA487C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78146616ECC6472EBDCFDEA3 /* Pods_simplecaller_OneSignalNotificationServiceExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AB9B063A2A879563003A4E7C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67C3A5AE0F3DD46BADA98A87 /* Pods_simplecaller.framework in Frameworks */,
+				ABFC52B42A89206300399D7E /* CallKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D4BF85754F0230B4E905D86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABFC52B32A89206200399D7E /* CallKit.framework */,
+				4F78D071D06C681661E8DB4A /* Pods_simplecaller.framework */,
+				3ABB48B6609EE3E12DFAD6D9 /* Pods_simplecaller_OneSignalNotificationServiceExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB3A05742A87991600D85C16 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				ABFC52AA2A88F96600399D7E /* Login */,
+				AB3A05772A87992A00D85C16 /* Home */,
+				ABFC52A82A88F46E00399D7E /* AlertView.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		AB3A05772A87992A00D85C16 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AB64FA952A880F1B00BA487C /* Cell */,
+				AB3A05782A87993400D85C16 /* HomeController.swift */,
+				AB3A057A2A879A1B00D85C16 /* HomeViewModel.swift */,
+				AB3A057C2A879A9700D85C16 /* HomeBuilder.swift */,
+				AB3A057E2A879ABA00D85C16 /* HomeRouter.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AB3A05802A87AEBA00D85C16 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				ABFC52BA2A89374B00399D7E /* CallProvider */,
+				ABFC52A52A88E49700399D7E /* OneSignal */,
+				AB64FA982A880F7400BA487C /* UserDefaultsManager */,
+				AB64FA762A87F7E900BA487C /* NetworkManager */,
+				AB3A05842A87AEFB00D85C16 /* AgoraManager */,
+				AB3A05812A87AEC500D85C16 /* LoadingManager */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		AB3A05812A87AEC500D85C16 /* LoadingManager */ = {
+			isa = PBXGroup;
+			children = (
+				AB3A05822A87AEC500D85C16 /* LoadingManager.swift */,
+			);
+			path = LoadingManager;
+			sourceTree = "<group>";
+		};
+		AB3A05842A87AEFB00D85C16 /* AgoraManager */ = {
+			isa = PBXGroup;
+			children = (
+				AB3A05852A87AF0400D85C16 /* AgoraManager.swift */,
+			);
+			path = AgoraManager;
+			sourceTree = "<group>";
+		};
+		AB64FA6B2A87DEB100BA487C /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				AB64FA6C2A87DEB100BA487C /* NotificationService.swift */,
+				AB64FA6E2A87DEB100BA487C /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		AB64FA762A87F7E900BA487C /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				AB64FA792A87F80300BA487C /* APIError.swift */,
+				AB64FA772A87F7E900BA487C /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		AB64FA7B2A87F81E00BA487C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ABFC52C12A8952AD00399D7E /* Post */,
+				AB64FA9E2A880F9900BA487C /* Section */,
+				AB64FA8D2A87FDE600BA487C /* Response */,
+				AB64FA7C2A87F82400BA487C /* Request */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AB64FA7C2A87F82400BA487C /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				AB64FA7D2A87F82D00BA487C /* RequestModel.swift */,
+				AB64FA882A87FA2900BA487C /* ExternalIDRequestModel.swift */,
+				ABFC529F2A88DFEE00399D7E /* TokenRequestModel.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		AB64FA7F2A87F85400BA487C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AB64FA902A88006C00BA487C /* DependencyContainer */,
+				AB9B06402A879563003A4E7C /* AppDelegate.swift */,
+				AB9B06422A879563003A4E7C /* SceneDelegate.swift */,
+				AB64FA802A87F85A00BA487C /* Constants */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		AB64FA802A87F85A00BA487C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				AB64FA812A87F88800BA487C /* Constants.swift */,
+				AB64FA832A87F8A500BA487C /* API.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		AB64FA852A87F93200BA487C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AB64FA862A87F93B00BA487C /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AB64FA8A2A87FD3E00BA487C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				AB64FA8B2A87FD6800BA487C /* ExternalIDAPI.swift */,
+				ABFC52A12A88E0F100399D7E /* TokenAPI.swift */,
+				ABFC52C52A8956C600399D7E /* PostVoIPAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		AB64FA8D2A87FDE600BA487C /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				AB64FA8E2A87FDEF00BA487C /* User.swift */,
+				ABFC52A32A88E12300399D7E /* Token.swift */,
+				ABFC52C72A89573A00399D7E /* Post.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		AB64FA902A88006C00BA487C /* DependencyContainer */ = {
+			isa = PBXGroup;
+			children = (
+				AB64FA912A88006C00BA487C /* DependencyContainer.swift */,
+			);
+			path = DependencyContainer;
+			sourceTree = "<group>";
+		};
+		AB64FA952A880F1B00BA487C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AB64FA932A880ED000BA487C /* HomeCollectionViewCell.swift */,
+				AB64FA962A880F3E00BA487C /* HomeCollectionViewCellViewModel.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		AB64FA982A880F7400BA487C /* UserDefaultsManager */ = {
+			isa = PBXGroup;
+			children = (
+				AB64FA992A880F7400BA487C /* ObjectSaveableError */,
+				AB64FA9B2A880F7400BA487C /* UserDefaultsManager.swift */,
+			);
+			path = UserDefaultsManager;
+			sourceTree = "<group>";
+		};
+		AB64FA992A880F7400BA487C /* ObjectSaveableError */ = {
+			isa = PBXGroup;
+			children = (
+				AB64FA9A2A880F7400BA487C /* ObjectSaveableError.swift */,
+			);
+			path = ObjectSaveableError;
+			sourceTree = "<group>";
+		};
+		AB64FA9E2A880F9900BA487C /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				AB64FA9F2A880FA200BA487C /* Section.swift */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
 		AB9B06342A879563003A4E7C = {
 			isa = PBXGroup;
 			children = (
 				AB9B063F2A879563003A4E7C /* simplecaller */,
+				AB64FA6B2A87DEB100BA487C /* OneSignalNotificationServiceExtension */,
 				AB9B063E2A879563003A4E7C /* Products */,
+				E6047C1754AF62276374FDCB /* Pods */,
+				1D4BF85754F0230B4E905D86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +366,7 @@
 			isa = PBXGroup;
 			children = (
 				AB9B063D2A879563003A4E7C /* simplecaller.app */,
+				AB64FA6A2A87DEB100BA487C /* OneSignalNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,31 +374,107 @@
 		AB9B063F2A879563003A4E7C /* simplecaller */ = {
 			isa = PBXGroup;
 			children = (
-				AB9B06402A879563003A4E7C /* AppDelegate.swift */,
-				AB9B06422A879563003A4E7C /* SceneDelegate.swift */,
-				AB9B06442A879563003A4E7C /* ViewController.swift */,
-				AB9B06462A879563003A4E7C /* Main.storyboard */,
-				AB9B06492A879564003A4E7C /* Assets.xcassets */,
-				AB9B064B2A879564003A4E7C /* LaunchScreen.storyboard */,
+				AB64FA8A2A87FD3E00BA487C /* API */,
+				AB64FA652A87DE2600BA487C /* simplecaller.entitlements */,
 				AB9B064E2A879564003A4E7C /* Info.plist */,
+				AB9B06492A879564003A4E7C /* Assets.xcassets */,
+				AB64FA852A87F93200BA487C /* Extensions */,
+				AB9B064B2A879564003A4E7C /* LaunchScreen.storyboard */,
+				AB9B06462A879563003A4E7C /* Main.storyboard */,
+				AB3A05802A87AEBA00D85C16 /* Managers */,
+				AB64FA7B2A87F81E00BA487C /* Models */,
+				AB3A05742A87991600D85C16 /* Modules */,
+				AB64FA7F2A87F85400BA487C /* Utilities */,
 			);
 			path = simplecaller;
+			sourceTree = "<group>";
+		};
+		ABFC52A52A88E49700399D7E /* OneSignal */ = {
+			isa = PBXGroup;
+			children = (
+				ABFC52A62A88E4A400399D7E /* OneSignalManager.swift */,
+			);
+			path = OneSignal;
+			sourceTree = "<group>";
+		};
+		ABFC52AA2A88F96600399D7E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				ABFC52AB2A88F97200399D7E /* LoginViewController.swift */,
+				ABFC52AD2A88FAFC00399D7E /* LoginViewModel.swift */,
+				ABFC52AF2A88FB7500399D7E /* LoginRouter.swift */,
+				ABFC52B12A88FB7C00399D7E /* LoginBuilder.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		ABFC52BA2A89374B00399D7E /* CallProvider */ = {
+			isa = PBXGroup;
+			children = (
+				ABFC52CB2A8A55D900399D7E /* Audio.swift */,
+				ABFC52BF2A89383800399D7E /* Call.swift */,
+				ABFC52BD2A89382400399D7E /* CallManager.swift */,
+				ABFC52BB2A89375500399D7E /* ProviderDelegate.swift */,
+			);
+			path = CallProvider;
+			sourceTree = "<group>";
+		};
+		ABFC52C12A8952AD00399D7E /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				ABFC52C22A8952B500399D7E /* PostModel.swift */,
+				ABFC52C92A8A3C7700399D7E /* RegisterVoIPToken.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		E6047C1754AF62276374FDCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FD24944955979E800448D30 /* Pods-simplecaller.debug.xcconfig */,
+				E62363B864DE6138FCDAE50A /* Pods-simplecaller.release.xcconfig */,
+				3BF74B4B7315B35035DC2EA8 /* Pods-simplecaller-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				99B5A6A9952C2DC856874437 /* Pods-simplecaller-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AB9B063C2A879563003A4E7C /* simplecaller */ = {
+		AB64FA692A87DEB100BA487C /* OneSignalNotificationServiceExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB9B06512A879564003A4E7C /* Build configuration list for PBXNativeTarget "simplecaller" */;
+			buildConfigurationList = AB64FA722A87DEB100BA487C /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
 			buildPhases = (
-				AB9B06392A879563003A4E7C /* Sources */,
-				AB9B063A2A879563003A4E7C /* Frameworks */,
-				AB9B063B2A879563003A4E7C /* Resources */,
+				F128CD837F5C1A2CE892DD5C /* [CP] Check Pods Manifest.lock */,
+				AB64FA662A87DEB100BA487C /* Sources */,
+				AB64FA672A87DEB100BA487C /* Frameworks */,
+				AB64FA682A87DEB100BA487C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = AB64FA6A2A87DEB100BA487C /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		AB9B063C2A879563003A4E7C /* simplecaller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB9B06512A879564003A4E7C /* Build configuration list for PBXNativeTarget "simplecaller" */;
+			buildPhases = (
+				2F977BF57D5BA49730812277 /* [CP] Check Pods Manifest.lock */,
+				AB9B06392A879563003A4E7C /* Sources */,
+				AB9B063A2A879563003A4E7C /* Frameworks */,
+				AB9B063B2A879563003A4E7C /* Resources */,
+				C54ACDC73FE9DD9E2AABCFDE /* [CP] Embed Pods Frameworks */,
+				AB64FA752A87DEB100BA487C /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB64FA702A87DEB100BA487C /* PBXTargetDependency */,
 			);
 			name = simplecaller;
 			productName = simplecaller;
@@ -97,6 +491,9 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					AB64FA692A87DEB100BA487C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
 					AB9B063C2A879563003A4E7C = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
@@ -116,11 +513,19 @@
 			projectRoot = "";
 			targets = (
 				AB9B063C2A879563003A4E7C /* simplecaller */,
+				AB64FA692A87DEB100BA487C /* OneSignalNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AB64FA682A87DEB100BA487C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AB9B063B2A879563003A4E7C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,18 +538,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F977BF57D5BA49730812277 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-simplecaller-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C54ACDC73FE9DD9E2AABCFDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-simplecaller/Pods-simplecaller-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-simplecaller/Pods-simplecaller-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-simplecaller/Pods-simplecaller-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F128CD837F5C1A2CE892DD5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-simplecaller-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		AB64FA662A87DEB100BA487C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB64FA6D2A87DEB100BA487C /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AB9B06392A879563003A4E7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB9B06452A879563003A4E7C /* ViewController.swift in Sources */,
+				AB64FA972A880F3E00BA487C /* HomeCollectionViewCellViewModel.swift in Sources */,
+				ABFC52A22A88E0F100399D7E /* TokenAPI.swift in Sources */,
+				ABFC52A72A88E4A400399D7E /* OneSignalManager.swift in Sources */,
+				AB3A05832A87AEC500D85C16 /* LoadingManager.swift in Sources */,
+				AB3A057D2A879A9700D85C16 /* HomeBuilder.swift in Sources */,
+				ABFC52C02A89383800399D7E /* Call.swift in Sources */,
+				ABFC52AC2A88F97200399D7E /* LoginViewController.swift in Sources */,
+				AB64FA782A87F7E900BA487C /* NetworkManager.swift in Sources */,
+				ABFC52BC2A89375500399D7E /* ProviderDelegate.swift in Sources */,
+				AB64FA9D2A880F7400BA487C /* UserDefaultsManager.swift in Sources */,
+				ABFC52AE2A88FAFC00399D7E /* LoginViewModel.swift in Sources */,
+				AB64FA942A880ED000BA487C /* HomeCollectionViewCell.swift in Sources */,
+				AB3A05862A87AF0400D85C16 /* AgoraManager.swift in Sources */,
+				ABFC52A92A88F46E00399D7E /* AlertView.swift in Sources */,
+				ABFC52BE2A89382400399D7E /* CallManager.swift in Sources */,
+				AB3A05792A87993400D85C16 /* HomeController.swift in Sources */,
+				ABFC52B22A88FB7C00399D7E /* LoginBuilder.swift in Sources */,
+				ABFC52C82A89573A00399D7E /* Post.swift in Sources */,
+				AB3A057F2A879ABA00D85C16 /* HomeRouter.swift in Sources */,
+				AB64FA8C2A87FD6800BA487C /* ExternalIDAPI.swift in Sources */,
+				ABFC52A42A88E12300399D7E /* Token.swift in Sources */,
+				AB64FA8F2A87FDEF00BA487C /* User.swift in Sources */,
+				ABFC52C62A8956C600399D7E /* PostVoIPAPI.swift in Sources */,
 				AB9B06412A879563003A4E7C /* AppDelegate.swift in Sources */,
+				ABFC52CC2A8A55D900399D7E /* Audio.swift in Sources */,
+				AB3A057B2A879A1B00D85C16 /* HomeViewModel.swift in Sources */,
+				ABFC52CA2A8A3C7700399D7E /* RegisterVoIPToken.swift in Sources */,
+				ABFC52A02A88DFEE00399D7E /* TokenRequestModel.swift in Sources */,
+				AB64FA872A87F93B00BA487C /* String+Extensions.swift in Sources */,
+				AB64FA9C2A880F7400BA487C /* ObjectSaveableError.swift in Sources */,
+				AB64FAA02A880FA200BA487C /* Section.swift in Sources */,
+				AB64FA842A87F8A500BA487C /* API.swift in Sources */,
+				ABFC52B02A88FB7500399D7E /* LoginRouter.swift in Sources */,
 				AB9B06432A879563003A4E7C /* SceneDelegate.swift in Sources */,
+				AB64FA7A2A87F80300BA487C /* APIError.swift in Sources */,
+				ABFC52C32A8952B500399D7E /* PostModel.swift in Sources */,
+				AB64FA7E2A87F82D00BA487C /* RequestModel.swift in Sources */,
+				AB64FA822A87F88800BA487C /* Constants.swift in Sources */,
+				AB64FA922A88006C00BA487C /* DependencyContainer.swift in Sources */,
+				AB64FA892A87FA2900BA487C /* ExternalIDRequestModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB64FA702A87DEB100BA487C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB64FA692A87DEB100BA487C /* OneSignalNotificationServiceExtension */;
+			targetProxy = AB64FA6F2A87DEB100BA487C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AB9B06462A879563003A4E7C /* Main.storyboard */ = {
@@ -166,6 +688,60 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		AB64FA732A87DEB100BA487C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BF74B4B7315B35035DC2EA8 /* Pods-simplecaller-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZTWYW76YMF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bertayyonel.simplecaller.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB64FA742A87DEB100BA487C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99B5A6A9952C2DC856874437 /* Pods-simplecaller-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZTWYW76YMF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bertayyonel.simplecaller.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		AB9B064F2A879564003A4E7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -282,19 +858,24 @@
 		};
 		AB9B06522A879564003A4E7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FD24944955979E800448D30 /* Pods-simplecaller.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = simplecaller/simplecaller.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZTWYW76YMF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = simplecaller/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Access the microphone.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,19 +891,24 @@
 		};
 		AB9B06532A879564003A4E7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E62363B864DE6138FCDAE50A /* Pods-simplecaller.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = simplecaller/simplecaller.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZTWYW76YMF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = simplecaller/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Access the microphone.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +925,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AB64FA722A87DEB100BA487C /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB64FA732A87DEB100BA487C /* Debug */,
+				AB64FA742A87DEB100BA487C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AB9B06382A879563003A4E7C /* Build configuration list for PBXProject "simplecaller" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
